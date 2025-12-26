@@ -13,7 +13,6 @@ def seed_users():
     users_data = [
         {"name": "Urvish", "email": "urvish@yopmail.com"},
         {"name": "admin", "email": "admin@yopmail.com"},
-        {"name": "Nirav", "email": "nirav@yopmail.com"},
         {"name": "prince", "email": "prince@yopmail.com"},
         {"name": "prafull", "email": "prafull@yopmail.com"},
     ]

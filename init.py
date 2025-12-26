@@ -17,6 +17,6 @@ def init_db():
 if __name__ == "__main__":
     # init_db()
     # The below connection is used to create tables for langgraph checkpoints and memory
-    with CustomSyncPostgresSaver.from_conn_string() as checkpointer:
-        checkpointer.setup()
+    # with CustomSyncPostgresSaver.from_conn_string() as checkpointer:
+    #     checkpointer.setup()
     print('------ Setup complete ------')

@@ -95,7 +95,7 @@ def get_tools():
 
 
 def get_llm(config: RunnableConfig):
-    llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash-001", api_key=settings.GOOGLE_API_KEY)
+    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", api_key=settings.GOOGLE_API_KEY)
     tools = get_tools()
     llm_with_tools = llm.bind_tools(tools)
     system_prompt = get_system_prompt()

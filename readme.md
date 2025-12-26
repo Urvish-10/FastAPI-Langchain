@@ -89,13 +89,19 @@ POSTGRES_PASSWORD="Test105*"
 POSTGRES_DB="langgraph_sample"
 ```
 
-### 5. Run the development server
+### 5. Load the fixture data
+
+```bash
+python -m app.fixtures.user_data
+```
+
+### 6. Run the development server
 
 ```bash
 uvicorn app.main:app --reload
 ```
 
-### 6. Access the API documentation
+### 7. Access the API documentation
 
 Once the server is running, you can access:
 
