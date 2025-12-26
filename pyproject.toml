@@ -1,0 +1,24 @@
+[project]
+name = "langgraph-agent-template"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "bcrypt==4.3.0",
+    "fastapi>=0.118.0",
+    "langchain-core>=0.3.76",
+    "langchain-google-genai>=2.1.12",
+    "langgraph>=0.6.8",
+    "langgraph-checkpoint>=2.1.1",
+    "langgraph-checkpoint-postgres>=2.0.24",
+    "passlib>=1.7.4",
+    "psycopg>=3.2.10",
+    "psycopg2-binary>=2.9.10",
+    "pydantic-settings>=2.11.0",
+    "pydantic[email]>=2.11.9",
+    "pyjwt>=2.10.1",
+    "python-jose>=3.5.0",
+    "python-multipart>=0.0.20",
+    "sqlmodel>=0.0.25",
+    "uvicorn>=0.37.0",
+]
