@@ -52,7 +52,7 @@ This project provides a clean, modular structure with dedicated folders for API 
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/Urvish-10/FastAPI-Langchain.git
 cd your-project
 ```
 
