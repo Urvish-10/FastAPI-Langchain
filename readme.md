@@ -2,7 +2,7 @@
 
 > ⚠️ **Note:** This Repository mainly focuses on the integration of Langgraph with FastAPI.
 
-A modern asynchronous backend built with **FastAPI**, **SQLModel**, and **Uvicorn**, managed by the **uv** package manager and running on **Python 3.13**.
+A modern asynchronous backend built with **FastAPI**, **SQLModel**, and **Uvicorn**, managed by the **uv** package manager, and running on **Python 3.13**.
 
 This project provides a clean, modular structure with dedicated folders for API endpoints, models, utilities, and core logic. Database migrations (Alembic) are **not** used yet — schema management is manual.
 
@@ -131,16 +131,19 @@ Once the server is running, you can access:
 
 ## 📝 License
 
-[Add your license information here]
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for full details.
 
 ---
 
-## 🤝 Contributing
-
-[Add contribution guidelines here]
-
----
 
 ## 📧 Contact
 
-[Add your contact information here]
+**Urvish Bhatt**  
+Software Engineer | Python • FastAPI • Django • DRF • AI • Agents • R&D Robotics
+
+For questions, discussions, or collaboration opportunities, feel free to reach out:
+
+- 📧 [urvishh.bhatt@gmail.com](mailto:urvishh.bhatt@gmail.com)  
+- 🌐 [LinkedIn](https://www.linkedin.com/in/urvish-bhatt)
+
